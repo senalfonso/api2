@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="./Registro_files/styles.css" rel="stylesheet">
+    <title>Login & Register</title>
+</head>
+<body class="bg-primary">
+        <div id="layoutAuthentication">
+            <div id="layoutAuthentication_content">
+                <main>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7">
+                                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                    <div class="card-header">
+<h2 align="center">Sistema de registro e inicio de sesión</h2>
+<img src="../img/logo.png" alt="SWR. Software Web Rectinorte">
+<hr>
+                                        <h3 class="text-center font-weight-light my-4">Crear una cuenta</h3></div>
+                                    <div class="card-body">
+<form method="post" name="signup" onsubmit="return checkpass();">
+
+<div class="row mb-3">
+<div class="col-md-6">
+<div class="form-floating mb-3 mb-md-0">
+<input class="form-control" id="fname" name="fname" type="text" placeholder="Enter your first name" required="">
+<label for="inputFirstName">Primer nombre</label>
+</div>
+</div>
+                                                
+<div class="col-md-6">
+<div class="form-floating">
+<input class="form-control" id="lname" name="lname" type="text" placeholder="Enter your last name" required="">
+ <label for="inputLastName">Apellidos</label>
+</div>
+</div>
+</div>
+
+
+<div class="form-floating mb-3">
+<input class="form-control" id="email" name="email" type="email" placeholder="phpgurukulteam@gmail.com" required="">
+<label for="inputEmail">Correo</label>
+</div>
+ 
+
+<div class="form-floating mb-3">
+<input class="form-control" id="contact" name="contact" type="text" placeholder="1234567890" required="" pattern="[0-9]{10}" title="10 numeric characters only" maxlength="10">
+<label for="inputcontact">Teléfono</label>
+</div>
+        
+
+
+<div class="row mb-3">
+<div class="col-md-6">
+ <div class="form-floating mb-3 mb-md-0">
+<input class="form-control" id="password" name="password" type="password" placeholder="Create a password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="at least one number and one uppercase and lowercase letter, and at least 6 or more characters" required="">
+<label for="inputPassword">Clave</label>
+</div>
+</div>
+                                                
+
+<div class="col-md-6">
+<div class="form-floating mb-3 mb-md-0">
+<input class="form-control" id="confirmpassword" name="confirmpassword" type="password" placeholder="Confirm password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="at least one number and one uppercase and lowercase letter, and at least 6 or more characters" required="">
+<label for="inputPasswordConfirm">Confirmar clave</label>
+</div>
+</div>
+</div>
+                                            
+
+<div class="mt-4 mb-0">
+<div class="d-grid"><button type="submit" class="btn btn-primary btn-block" name="submit">Crear una cuenta</button></div>
+</div>
+                                        </form>
+                                    </div>
+                                    <div class="card-footer text-center py-3">
+ <div class="small"><a href="login.html">¿Ya tienes una cuenta? Inicia sesion</a></div>
+  <div class="small"><a href="../index.html">Volver al inicio</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <div id="layoutAuthentication_footer">
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid px-4">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright © 2023</div>
+                            <div>
+                                <a href="http://177.255.55.246/AyA/registrar/signup.php#" target="_blank">xxxx | Blog</a>
+    
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>        </div>
+        <script src="./Registro_files/bootstrap.bundle.min.js.descarga" crossorigin="anonymous"></script>
+        <script src="./Registro_files/scripts.js.descarga"></script>
+    
+
+<div id="__REC__-container"></div></body>
+</html> 
